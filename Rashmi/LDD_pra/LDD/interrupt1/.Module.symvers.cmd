@@ -1,0 +1,1 @@
+cmd_/home/desd/KM_GITHUB/LDD/interrupt1/Module.symvers := sed 's/\.ko$$/\.o/' /home/desd/KM_GITHUB/LDD/interrupt1/modules.order | scripts/mod/modpost -m -a  -o /home/desd/KM_GITHUB/LDD/interrupt1/Module.symvers -e -i Module.symvers   -T -

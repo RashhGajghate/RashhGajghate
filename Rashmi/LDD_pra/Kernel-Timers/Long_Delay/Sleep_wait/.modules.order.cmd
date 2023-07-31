@@ -1,0 +1,1 @@
+cmd_/home/desd/KM_GITHUB/Kernel-Timers/Long_Delay/Sleep_wait/modules.order := {   echo /home/desd/KM_GITHUB/Kernel-Timers/Long_Delay/Sleep_wait/sleep_wait.ko; :; } | awk '!x[$$0]++' - > /home/desd/KM_GITHUB/Kernel-Timers/Long_Delay/Sleep_wait/modules.order

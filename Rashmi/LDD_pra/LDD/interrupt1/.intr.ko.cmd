@@ -1,0 +1,1 @@
+cmd_/home/desd/KM_GITHUB/LDD/interrupt1/intr.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/desd/KM_GITHUB/LDD/interrupt1/intr.ko /home/desd/KM_GITHUB/LDD/interrupt1/intr.o /home/desd/KM_GITHUB/LDD/interrupt1/intr.mod.o;  true

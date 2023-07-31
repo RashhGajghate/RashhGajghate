@@ -1,0 +1,1 @@
+cmd_/home/desd/KM_GITHUB/LDD/Module_prog/lab4/modules.order := {   echo /home/desd/KM_GITHUB/LDD/Module_prog/lab4/onetwo.ko; :; } | awk '!x[$$0]++' - > /home/desd/KM_GITHUB/LDD/Module_prog/lab4/modules.order

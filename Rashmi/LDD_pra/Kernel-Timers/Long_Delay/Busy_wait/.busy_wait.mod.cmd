@@ -1,0 +1,1 @@
+cmd_/home/desd/KM_GITHUB/Kernel-Timers/Long_Delay/Busy_wait/busy_wait.mod := { echo  /home/desd/KM_GITHUB/Kernel-Timers/Long_Delay/Busy_wait/busy_wait.o;  echo; } > /home/desd/KM_GITHUB/Kernel-Timers/Long_Delay/Busy_wait/busy_wait.mod

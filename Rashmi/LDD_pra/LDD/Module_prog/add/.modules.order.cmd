@@ -1,0 +1,1 @@
+cmd_/home/desd/KM_GITHUB/LDD/Module_prog/add/modules.order := {   echo /home/desd/KM_GITHUB/LDD/Module_prog/add/add.ko;   echo /home/desd/KM_GITHUB/LDD/Module_prog/add/avg.ko; :; } | awk '!x[$$0]++' - > /home/desd/KM_GITHUB/LDD/Module_prog/add/modules.order

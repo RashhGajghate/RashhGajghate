@@ -1,0 +1,1 @@
+cmd_/home/desd/KM_GITHUB/LDD/Linux-devicedriver/Multiple_CDD/CalculatorDriver.mod := { echo  /home/desd/KM_GITHUB/LDD/Linux-devicedriver/Multiple_CDD/CalculatorDriver.o;  echo; } > /home/desd/KM_GITHUB/LDD/Linux-devicedriver/Multiple_CDD/CalculatorDriver.mod

@@ -1,0 +1,1 @@
+cmd_/home/desd/KM_GITHUB/LDD/mychar/mychar.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/desd/KM_GITHUB/LDD/mychar/mychar.ko /home/desd/KM_GITHUB/LDD/mychar/mychar.o /home/desd/KM_GITHUB/LDD/mychar/mychar.mod.o ;  true

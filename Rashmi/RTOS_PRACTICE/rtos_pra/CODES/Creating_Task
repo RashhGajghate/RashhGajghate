@@ -1,0 +1,30 @@
+27-05-2023
+
+ 
+xTaskCreate(task1, "task1", 200, NULL, 1, NULL);
+xTaskCreate(task2, "task2", 200, NULL, 1, NULL);
+xTaskCreate(task3, "task3", 200, NULL, 1, NULL);
+xTaskCreate(task4, "task4", 200, NULL, 1, NULL);
+
+Observation : All LEDs are toggling
+              Time slice equally distributed among the four task.
+		    As all four task have same priority.
+		    
+xTaskCreate(task1, "task1", 200, NULL, 2, NULL);
+xTaskCreate(task2, "task2", 200, NULL, 1, NULL);
+xTaskCreate(task3, "task3", 200, NULL, 1, NULL);
+xTaskCreate(task4, "task4", 200, NULL, 1, NULL);
+
+Observation : Only LED 12 is toggling
+		    Scheduling policy is priority pre-emptive.
+		    After completing the toggling of LED 12 it is put in Ready queue and again LED 12 toggles
+		    If in case High priority blocks then low priority can runs.
+		    
+xTaskCreate(task1, "task1", 200, NULL, 2, NULL);
+xTaskCreate(task2, "task2", 200, NULL, 2, NULL);
+xTaskCreate(task3, "task3", 200, NULL, 1, NULL);
+xTaskCreate(task4, "task4", 200, NULL, 1, NULL);
+
+Observation :LED 12 and LED 13 are toggling
+		   As Task1 and Task2 have same higher priority 2
+		   If high priority gets block low priority task can run.

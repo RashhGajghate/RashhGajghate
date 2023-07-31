@@ -1,0 +1,1 @@
+cmd_/home/desd/KM_GITHUB/LDD/Linux-devicedriver/concurrency/export.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/desd/KM_GITHUB/LDD/Linux-devicedriver/concurrency/export.ko /home/desd/KM_GITHUB/LDD/Linux-devicedriver/concurrency/export.o /home/desd/KM_GITHUB/LDD/Linux-devicedriver/concurrency/export.mod.o;  true

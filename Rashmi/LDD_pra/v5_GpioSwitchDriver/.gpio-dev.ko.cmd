@@ -1,0 +1,1 @@
+cmd_/home/desd/KM_GITHUB/v5.O_GpioSwitchDriver/gpio-dev.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/desd/KM_GITHUB/v5.O_GpioSwitchDriver/gpio-dev.ko /home/desd/KM_GITHUB/v5.O_GpioSwitchDriver/gpio-dev.o /home/desd/KM_GITHUB/v5.O_GpioSwitchDriver/gpio-dev.mod.o ;  true

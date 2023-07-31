@@ -1,0 +1,1 @@
+cmd_/home/desd/KM_GITHUB/LDD/panic/Module.symvers := sed 's/\.ko$$/\.o/' /home/desd/KM_GITHUB/LDD/panic/modules.order | scripts/mod/modpost -m -a  -o /home/desd/KM_GITHUB/LDD/panic/Module.symvers -e -i Module.symvers   -T -

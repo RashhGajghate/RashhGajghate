@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<item key="selection" value="xPortStartScheduler"/>
+		<list key="findhistory">
+			<item value="xPortStartScheduler"/>
+			<item value="+"/>
+			<item value="/* Wake time has overflowed.  Place this item in the overflow&#x0A;                      * list. */"/>
+			<item value="vListInsertEnd( &amp;xSuspendedTaskList, &amp;( pxCurrentTCB-&gt;xStateListItem ) );"/>
+			<item value="traceTASK_NOTIFY_GIVE_FROM_ISR( uxIndexToNotify );"/>
+			<item value="traceTASK_NOTIFY_FROM_ISR( uxIndexToNotify );"/>
+			<item value="traceTASK_NOTIFY( uxIndexToNotify );"/>
+			<item value=" #define portNVIC_PENDSVSET_BIT "/>
+		</list>
+		<list key="replacehistory">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="622"/>
+		<item key="DIALOG_Y_ORIGIN" value="141"/>
+		<item key="DIALOG_WIDTH" value="363"/>
+		<item key="DIALOG_HEIGHT" value="437"/>
+		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|11.0|0|GTK|1|"/>
+	</section>
+</section>

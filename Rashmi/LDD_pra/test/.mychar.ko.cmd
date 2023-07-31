@@ -1,0 +1,1 @@
+cmd_/home/desd/KM_GITHUB/test/mychar.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/desd/KM_GITHUB/test/mychar.ko /home/desd/KM_GITHUB/test/mychar.o /home/desd/KM_GITHUB/test/mychar.mod.o;  true

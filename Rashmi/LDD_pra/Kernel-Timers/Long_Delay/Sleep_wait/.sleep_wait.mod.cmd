@@ -1,0 +1,1 @@
+cmd_/home/desd/KM_GITHUB/Kernel-Timers/Long_Delay/Sleep_wait/sleep_wait.mod := { echo  /home/desd/KM_GITHUB/Kernel-Timers/Long_Delay/Sleep_wait/sleep_wait.o;  echo; } > /home/desd/KM_GITHUB/Kernel-Timers/Long_Delay/Sleep_wait/sleep_wait.mod

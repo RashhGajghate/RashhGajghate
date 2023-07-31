@@ -1,0 +1,1 @@
+cmd_/home/desd/KM_GITHUB/Kernel-Timers/Long_Delay/Busy_wait/busy_wait.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/desd/KM_GITHUB/Kernel-Timers/Long_Delay/Busy_wait/busy_wait.ko /home/desd/KM_GITHUB/Kernel-Timers/Long_Delay/Busy_wait/busy_wait.o /home/desd/KM_GITHUB/Kernel-Timers/Long_Delay/Busy_wait/busy_wait.mod.o;  true

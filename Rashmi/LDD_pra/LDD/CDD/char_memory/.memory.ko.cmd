@@ -1,0 +1,1 @@
+cmd_/home/desd/KM_GITHUB/LDD/CDD/char_memory/memory.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/desd/KM_GITHUB/LDD/CDD/char_memory/memory.ko /home/desd/KM_GITHUB/LDD/CDD/char_memory/memory.o /home/desd/KM_GITHUB/LDD/CDD/char_memory/memory.mod.o;  true

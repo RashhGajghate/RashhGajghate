@@ -1,0 +1,1 @@
+cmd_/home/desd/KM_GITHUB/LDD/Linux-devicedriver/concurrency/two.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/desd/KM_GITHUB/LDD/Linux-devicedriver/concurrency/two.ko /home/desd/KM_GITHUB/LDD/Linux-devicedriver/concurrency/two.o /home/desd/KM_GITHUB/LDD/Linux-devicedriver/concurrency/two.mod.o;  true

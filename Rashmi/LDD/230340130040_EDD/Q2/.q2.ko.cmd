@@ -1,0 +1,1 @@
+cmd_/home/desd/230340130040_EDD/Q2/q2.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/desd/230340130040_EDD/Q2/q2.ko /home/desd/230340130040_EDD/Q2/q2.o /home/desd/230340130040_EDD/Q2/q2.mod.o;  true

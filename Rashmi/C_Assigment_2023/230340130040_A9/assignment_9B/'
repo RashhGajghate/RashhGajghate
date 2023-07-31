@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+struct class{
+	int div;
+	union stu{
+		char name[20];
+		int rollno;
+	}s;
+};
+
+
+int main()
+{
+	struct class var={1};
+	printf("%d\n",var.div);
+	return 0;
+}

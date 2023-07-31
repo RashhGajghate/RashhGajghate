@@ -1,0 +1,4 @@
+0xe23ea4f1	my_queue	/home/desd/KM_GITHUB/v6_GpioSwitchDriver/gpio-thread	EXPORT_SYMBOL
+0x2cd3e727	data_present	/home/desd/KM_GITHUB/v6_GpioSwitchDriver/gpio-thread	EXPORT_SYMBOL
+0xa778c4b4	gpio_in	/home/desd/KM_GITHUB/v6_GpioSwitchDriver/gpio-thread	EXPORT_SYMBOL
+0xc4795607	value	/home/desd/KM_GITHUB/v6_GpioSwitchDriver/gpio-thread	EXPORT_SYMBOL

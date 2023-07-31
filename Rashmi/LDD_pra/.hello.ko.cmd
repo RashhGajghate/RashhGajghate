@@ -1,0 +1,1 @@
+cmd_/home/desd/directory_2023/Rashmi/LDD_pra/hello.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/desd/directory_2023/Rashmi/LDD_pra/hello.ko /home/desd/directory_2023/Rashmi/LDD_pra/hello.o /home/desd/directory_2023/Rashmi/LDD_pra/hello.mod.o;  true

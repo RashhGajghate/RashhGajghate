@@ -1,0 +1,21 @@
+Q.3]
+
+Oberservation:
+
+Case 1:
+	As we created two tasks if both the task have the same priority and no delay function called in any task then,
+	First Task1 gets in block state till Task2 sends data to it, as it is receiving the data.
+	As soon as Task2 sends data Task1 comes in running state and execute and sends data to Task2 and then Task2 executes.
+	 
+case 2:
+	If task1 has the highest priority and task2 is of lower priority then Task1 comes in block state as it is receiving the data, even if it has higher priority 
+	Task2 runs first.
+	As soon as task2 sends the data task1 comes in run state and executes and keep on executing as it is the higher priority task and no delay mentioned in the Task1.
+	so, Task2 will not run until the task1 is deleted.
+	
+case 3:
+	If task1 has the highest priority and task2 is of lower priority then Task1 comes in block state as it is receiving the data, even if it has higher priority 
+	Task2 runs first.
+	As soon as task2 sends the data task1 comes in run state and executes and as we mentioned delay in Task1 it will get in block state for sometimes and in that time 
+	Task2 will run.
+	As delay time elapsed task1 will again run.

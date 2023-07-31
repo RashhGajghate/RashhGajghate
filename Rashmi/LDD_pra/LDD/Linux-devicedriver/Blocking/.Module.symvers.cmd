@@ -1,0 +1,1 @@
+cmd_/home/desd/KM_GITHUB/LDD/Linux-devicedriver/Blocking/Module.symvers := sed 's/\.ko$$/\.o/' /home/desd/KM_GITHUB/LDD/Linux-devicedriver/Blocking/modules.order | scripts/mod/modpost -m -a  -o /home/desd/KM_GITHUB/LDD/Linux-devicedriver/Blocking/Module.symvers -e -i Module.symvers   -T -

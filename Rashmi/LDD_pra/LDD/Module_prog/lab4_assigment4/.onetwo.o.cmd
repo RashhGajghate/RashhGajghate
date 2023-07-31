@@ -1,0 +1,1 @@
+cmd_/home/desd/KM_GITHUB/LDD/Module_prog/lab4/onetwo.o := ld  -m elf_x86_64 -z noexecstack     -r -o /home/desd/KM_GITHUB/LDD/Module_prog/lab4/onetwo.o /home/desd/KM_GITHUB/LDD/Module_prog/lab4/one.o /home/desd/KM_GITHUB/LDD/Module_prog/lab4/two.o

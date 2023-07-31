@@ -1,0 +1,1 @@
+cmd_/home/desd/KM_GITHUB/LDD/Linux-devicedriver/concurrency/Module.symvers := sed 's/\.ko$$/\.o/' /home/desd/KM_GITHUB/LDD/Linux-devicedriver/concurrency/modules.order | scripts/mod/modpost -m -a  -o /home/desd/KM_GITHUB/LDD/Linux-devicedriver/concurrency/Module.symvers -e -i Module.symvers   -T -

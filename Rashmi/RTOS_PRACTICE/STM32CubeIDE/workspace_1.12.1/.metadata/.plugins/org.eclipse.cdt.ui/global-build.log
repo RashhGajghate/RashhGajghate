@@ -1,0 +1,7 @@
+03:52:01 **** Build of configuration Debug for project FreeRTOS_manual_3_2705 ****
+make -j8 all 
+arm-none-eabi-size   FreeRTOS_manual_3_2705.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24916	     28	  84620	 109564	  1abfc	FreeRTOS_manual_3_2705.elf
+Finished building: default.size.stdout
+ 

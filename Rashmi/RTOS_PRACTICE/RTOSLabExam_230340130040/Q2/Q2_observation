@@ -1,0 +1,17 @@
+Q.2]
+
+Observation:
+
+	As we created two tasks and used three LEDs (LED 12,LED 13,LED 14)
+	
+	In taskA we turned on LED1 for 100ms and turned off for 100ms 
+	In taskA we turned on LED2 for 100ms and turned off for 100ms 
+	In taskA we turned on LED3 for 100ms and turned off for 100ms 
+	
+	In taskB we turned on LED3 for 100ms and turned off for 100ms 
+	In taskB we turned on LED2 for 100ms and turned off for 100ms 
+	In taskB we turned on LED1 for 100ms and turned off for 100ms 
+	
+	As both tasks are of same priority and we used semaphore here task1 will runs first as it is acquiring the semaphore after it gives semaphore task2 will run and
+	till the time task2 is running task1 goes block state as it also requires semaphore which is acquire by task2.
+	As soon as task2 give semaphore task1 comes in running state and task2 goes to block state.

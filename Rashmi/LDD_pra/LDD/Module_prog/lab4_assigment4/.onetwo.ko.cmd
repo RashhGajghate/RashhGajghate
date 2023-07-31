@@ -1,0 +1,1 @@
+cmd_/home/desd/KM_GITHUB/LDD/Module_prog/lab4/onetwo.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/desd/KM_GITHUB/LDD/Module_prog/lab4/onetwo.ko /home/desd/KM_GITHUB/LDD/Module_prog/lab4/onetwo.o /home/desd/KM_GITHUB/LDD/Module_prog/lab4/onetwo.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_/home/desd/KM_GITHUB/LDD/Module_prog/add/avg.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/desd/KM_GITHUB/LDD/Module_prog/add/avg.ko /home/desd/KM_GITHUB/LDD/Module_prog/add/avg.o /home/desd/KM_GITHUB/LDD/Module_prog/add/avg.mod.o;  true

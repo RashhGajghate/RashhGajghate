@@ -1,0 +1,1 @@
+cmd_/home/desd/KM_GITHUB/LDD/CDD/char_memory/Module.symvers := sed 's/\.ko$$/\.o/' /home/desd/KM_GITHUB/LDD/CDD/char_memory/modules.order | scripts/mod/modpost -m -a  -o /home/desd/KM_GITHUB/LDD/CDD/char_memory/Module.symvers -e -i Module.symvers   -T -

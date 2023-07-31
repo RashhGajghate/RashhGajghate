@@ -1,0 +1,3 @@
+0xe23ea4f1	my_queue	vmlinux	EXPORT_SYMBOL
+0x2cd3e727	data_present	vmlinux	EXPORT_SYMBOL
+0xa778c4b4	gpio_in	vmlinux	EXPORT_SYMBOL

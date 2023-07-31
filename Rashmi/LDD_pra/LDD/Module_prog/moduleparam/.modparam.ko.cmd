@@ -1,0 +1,1 @@
+cmd_/home/desd/KM_GITHUB/LDD/Module_prog/moduleparam/modparam.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/desd/KM_GITHUB/LDD/Module_prog/moduleparam/modparam.ko /home/desd/KM_GITHUB/LDD/Module_prog/moduleparam/modparam.o /home/desd/KM_GITHUB/LDD/Module_prog/moduleparam/modparam.mod.o ;  true

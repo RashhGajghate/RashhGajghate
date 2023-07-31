@@ -1,0 +1,2 @@
+0x005646c5	leave_sem	/home/desd/KM_GITHUB/LDD/Linux-devicedriver/concurrency/export	EXPORT_SYMBOL_GPL	
+0x3d5d76c1	get_sem	/home/desd/KM_GITHUB/LDD/Linux-devicedriver/concurrency/export	EXPORT_SYMBOL_GPL	
